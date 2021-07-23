@@ -1,5 +1,50 @@
+html{
+  background-color: #F5F5F5;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-center .zero-Typography,
+.text-center .jota-Typography{
+  text-align: center !important;
+}
+
 .App {
   text-align: center;
+}
+
+.ProductCard .text-center{
+  margin: 48px;
+}
+
+.ProductCard .zero-Cardbase,
+.ProductCard .jota-Cardbase{
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.ProductCard .jota-Cardbase .jota-TagCategory,
+.ProductCard .zero-Cardbase .zero-TagCategory{
+  margin-bottom: 8px;
+}
+
+.ProductCard .jota-Cardbase .jota-Typography,
+.ProductCard .zero-Cardbase .zero-Typography{
+  margin-bottom: 24px;
+}
+
+.ProductCard .jota-Cardbase .jota-Typography.Paragraph,
+.ProductCard .zero-Cardbase .zero-Typography.Paragraph{
+  margin-bottom: 64px;
+}
+
+.ProductCard .jota-Cardbase .jota-Button,
+.ProductCard .zero-Cardbase .zero-Button{
+  margin-top: auto;
 }
 
 .App-logo {
