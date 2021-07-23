@@ -18,7 +18,12 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "theme:jota-default": "npm explore @meiuca/jota-lib-react -- cross-env BRAND=jota THEME=default node theme-replace.js",
+    "theme:jota-outubro": "npm explore @meiuca/jota-lib-react -- cross-env BRAND=jota THEME=outubro-rosa node theme-replace.js",
+    "build:ds": "npm explore @meiuca/jota-lib-react -- yarn build",
+    "build:ds-default": "yarn theme:jota-default && yarn build:ds",
+    "build:ds-outubro": "yarn theme:jota-outubro && yarn build:ds"
   },
   "eslintConfig": {
     "extends": [

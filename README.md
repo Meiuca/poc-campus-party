@@ -27,13 +27,13 @@ yarn start
 Para gerar a compilação para um novo tema: 
 
 ```
-npm explore @meiuca/jota-lib-react -- cross-env BRAND=jota THEME=outubro-rosa node theme-replace.js
+yarn build:ds-outubro
 ```
 
-Após gerar o novo tema, é necessário compilar o ds:
+Ou 
 
 ```
-npm explore @meiuca/jota-lib-react -- yarn build
+yarn build:ds-default
 ```
 
 E então subir o projeto novamente:
@@ -41,5 +41,3 @@ E então subir o projeto novamente:
 ```
 yarn start
 ```
-
-IMPORTANTE: o valor de THEME pode ser outubro-rosa ou default, apenas para a marca jota
